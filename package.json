@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "dev-styles": "sass -w src/app/styles/styles.module.scss src/app/styles/styles.module.css",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint"
