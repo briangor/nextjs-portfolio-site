@@ -2,6 +2,7 @@
 import styles from '../styles/styles.module.css';
 import LogoDevIcon from '@mui/icons-material/LogoDev';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
+import CustomizedSwitches from './theme-toggle';
 
 export default function Navbar() {
 
@@ -16,8 +17,9 @@ export default function Navbar() {
       <ul className={styles.navbar__menu}>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="#">Work</a></li>
         <li><a href="#">Contact</a></li>
+        <CustomizedSwitches />
       </ul>
       <div className={styles.navbar__toggle}>
         <MenuRoundedIcon />
