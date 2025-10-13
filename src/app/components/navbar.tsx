@@ -16,10 +16,10 @@ export default function Navbar() {
         <span>John Doe</span>
       </div>
       <ul className={styles.navbar__menu}>
-        <li><Link href="#">Home</Link></li>
-        <li><Link href="#">About</Link></li>
-        <li><Link href="#">Work</Link></li>
-        <li><Link href="#">Contact</Link></li>
+        <li><Link href="#home">Home</Link></li>
+        <li><Link href="#about">About</Link></li>
+        <li><Link href="#work">Work</Link></li>
+        <li><Link href="#contact">Contact</Link></li>
         <CustomizedSwitches />
       </ul>
       <div className={styles.navbar__toggle}>
